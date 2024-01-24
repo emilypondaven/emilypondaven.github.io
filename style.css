@@ -1,0 +1,84 @@
+* {
+    margin: 0.4vw;
+    padding: 0.4vw;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background-color: #F4E9CD;
+    color: #072435;
+}
+
+h1 {
+    font-size: 12vw;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    text-align: center;
+    background-color: #9DBEBB;
+}
+
+.navbar {
+    background-color: #468189;
+    text-align: center;
+    padding: 1vw 1vw;
+}
+
+.navbar a {
+    padding-right: 5.2vw;
+    padding-left: 5.2vw;
+    color: #072435;
+    font-weight: bold;
+    text-decoration: none; /* removes unerline for all links */
+}
+
+.navbar a:hover {
+    background-color: #77ACA2;
+}
+
+body {
+    font-size: 2.8vw;
+}
+
+#returnMenu {
+    text-align: right;
+}
+
+.form {
+    text-align: center;
+    font-size: 4vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    background-color: #C2BAA5;
+}
+
+.formHeading {
+    margin-top: 5vw;
+    margin-bottom: -2vw;
+}
+.form input {
+    background: transparent;
+    border-bottom: 0.4vw solid #072435;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #072435;
+    outline: none;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.form input[type="submit"] {
+    font-size: 4vw;
+    border-bottom: none;
+    margin-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #A19B8B;
+    border-radius: 1.5vw;
+}
+
+.form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #ABA593;
+}
