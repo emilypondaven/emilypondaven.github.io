@@ -82,3 +82,8 @@ body {
     cursor: pointer;
     background-color: #ABA593;
 }
+
+
+#startingHeader {
+    font-size: 10vw;
+}
