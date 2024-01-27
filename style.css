@@ -9,6 +9,10 @@ body {
     color: #072435;
 }
 
+#startingHeader {
+    font-size: 2vw;
+}
+
 h1 {
     font-size: 12vw;
     padding-top: 0.4em;
@@ -81,9 +85,4 @@ body {
 .form input[type="submit"]:hover {
     cursor: pointer;
     background-color: #ABA593;
-}
-
-
-#startingHeader {
-    font-size: 10vw;
 }
