@@ -1,4 +1,4 @@
-var txt;
+const fileInput = 
 
 function preload() {
     txt = loadStrings("ingredientslist.txt");
